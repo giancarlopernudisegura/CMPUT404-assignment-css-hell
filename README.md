@@ -21,6 +21,8 @@ repository and (C) 2013 Abram Hindle visibile in the text.
 
 Code is licensed under the Apache 2.0 license.
 
+`homepage/headshot.jpg` is licensed under the CC-BY-ND 4.0 license.
+
 Changes
 =======
 + Remove original css tag from the HTML.
