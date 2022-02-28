@@ -9,7 +9,7 @@ body {
 	font-family: 'Roboto', sans-serif;
 	display: grid;
 	flex-direction: row-reverse;
-	grid-template-columns: 24ex 1fr;
+	grid-template-columns: 30ex 1fr;
 	align-items: center;
 }
 
@@ -93,7 +93,15 @@ ul li {
 	font-size: 1.5rem;
 	display: flex;
 	flex-direction: column;
-	gap: 1rem;
+}
+
+.sidebar h3, .sidebar ul {
+	margin: 0;
+}
+
+.sidebar ul {
+	padding: 0;
+	font-size: 0.75em;
 }
 
 .sidebar a {
