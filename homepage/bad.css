@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap');
+
+body {
+	font-family: 'Comic Neue', cursive;
+	background-image: url('headshot.jpg');
+	background-size: 30px;
+	color: white;
+	display: grid;
+	grid-template-columns: 100px 1fr;
+}
+
+main {
+	background-color: #000a;
+	direction: rtl;
+}
+
+h1 {
+	font-size: 2rem;
+	text-align: center;
+}
+
+h1, h2, h3 {
+	text-shadow: 1px 1px 8px pink;
+	direction: ltr;
+}
+
+h1:hover, h2:hover, h3:hover {
+	text-shadow: 1px 1px 16px blueviolet;
+}
+
+.sidebar {
+	background-color: #000;
+}
+
+.sidebar > div {
+	position: sticky;
+	top: 20px;
+}
+
+.sidebar a {
+	color: white;
+}
