@@ -21,4 +21,10 @@ repository and (C) 2013 Abram Hindle visibile in the text.
 
 Code is licensed under the Apache 2.0 license.
 
-
+Changes
+=======
++ Remove original css tag from the HTML.
++ Replace image links with local image links.
++ Change background to black textured image.
++ Change font color to white and family to Roboto Slab.
++ Center header tabs and increase margins.
